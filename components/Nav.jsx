@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const links = [
+ const links = [
     {
         name: "home",
         path: "/",
@@ -26,6 +26,7 @@ const links = [
     },
 
 ];
+
 
 const Nav = () => {
     const pathname = usePathname();
